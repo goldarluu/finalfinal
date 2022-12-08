@@ -618,6 +618,7 @@ void MyRenderGeometries() {
 
         // Render the third back wall 
         if (!renderWall) {
+            glFrontFace(GL_CW);
             selectShaderProgram(shaderProgramBitmap);
             glBindVertexArray(myVAO[iWall3]);                // Select the floor VAO (Vertex Array Object)
             materialUnderTexture.LoadIntoShaders();         // Use the bright underlying color
@@ -628,6 +629,7 @@ void MyRenderGeometries() {
             glDrawElements(GL_TRIANGLE_STRIP, 4, GL_UNSIGNED_INT, (void*)0);
             glUniform1i(applyTextureLocation, false);           // Turn off applying texture!
             check_for_opengl_errors();
+            glFrontFace(GL_CCW);
         }
     // Renders the picture frame 
     selectShaderProgram(shaderProgramBitmap);
@@ -696,6 +698,17 @@ void MyRenderGeometries() {
     matDemo = viewMatrix;
     matDemo.Mult_glTranslate(0.0, 5.0, 0.0);
     matDemo.Mult_glRotate(PI/2, 0.0, 0.0, 1.0);//matDemo.Mult_glRotate(PIhalves, 0.0, 0.0, 1.0);
+    matDemo.Mult_glScale(0.8, 0.2, 0.8);
+    matDemo.DumpByColumns(matEntries);           // Apply the model view matrix
+    glUniformMatrix4fv(modelviewMatLocation, 1, false, matEntries);
+    glBindTexture(GL_TEXTURE_2D, TextureNames[2]);     // Choose texture
+    glUniform1i(applyTextureLocation, true);            // Enable applying the texture!
+    texTorus.Render();                                  // Render the torus
+    glUniform1i(applyTextureLocation, false);           // Turn off applying texture!
+
+    matDemo = viewMatrix;
+    matDemo.Mult_glTranslate(0.0, 5.0, 0.0);
+    matDemo.Mult_glRotate(-PI / 4, 0.0, 0.0, 1.0);//matDemo.Mult_glRotate(PIhalves, 0.0, 0.0, 1.0);
     matDemo.Mult_glScale(0.8, 0.2, 0.8);
     matDemo.DumpByColumns(matEntries);           // Apply the model view matrix
     glUniformMatrix4fv(modelviewMatLocation, 1, false, matEntries);
