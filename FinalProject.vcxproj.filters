@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\FinalProject_re\alluminum.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\blackhole.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\bookies.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\bornana.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\BrickWallTexture.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\column.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\curtaiin.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\earth.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\earth_clouds.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\galaxy.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\galaxy_2 (1).bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\galaxy_2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\granite.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\granite.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\hatch.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\him.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\insterstellar.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\jameswebb1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\jupiter.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\jupitermap.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\KalachakraSera.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\logokachow.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\mars.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\merc.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\milks.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\muesuem.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\nasa1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\neptune.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\oak.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\RoughWood.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\sapphire.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\saturn.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\space.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\tiles.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\titan.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\titan1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\titan2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\uranustext.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\venus.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\webbies.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\webbies1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\webbies2.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\wod.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\woodtext.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="..\FinalProject_re\wootwoot.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FinalProject_re\EduPhong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\GlGeomBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\GlGeomCylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\GlGeomSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\GlGeomTorus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\GlShaderMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\LinearR3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\LinearR4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FinalProject_re\RgbImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureProj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGeometries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FinalProject_re\EduPhong.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\FinalProject_re\MyShaders.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\FinalProject_re\MyShadersDemo.glsl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FinalProject_re\EduPhong.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\GlGeomBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\GlGeomCylinder.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\GlGeomSphere.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\GlGeomTorus.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\GlShaderMgr.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\LinearR3.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\LinearR4.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\MathMisc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\PhongData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FinalProject_re\RgbImage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGeometries.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureProj.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

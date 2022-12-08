@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\FinalProject_re\alluminum.bmp" />
+    <Image Include="..\FinalProject_re\blackhole.bmp" />
+    <Image Include="..\FinalProject_re\bookies.bmp" />
+    <Image Include="..\FinalProject_re\bornana.bmp" />
+    <Image Include="..\FinalProject_re\BrickWallTexture.bmp" />
+    <Image Include="..\FinalProject_re\column.bmp" />
+    <Image Include="..\FinalProject_re\curtaiin.bmp" />
+    <Image Include="..\FinalProject_re\earth.bmp" />
+    <Image Include="..\FinalProject_re\earth_clouds.bmp" />
+    <Image Include="..\FinalProject_re\galaxy.bmp" />
+    <Image Include="..\FinalProject_re\galaxy_2 (1).bmp" />
+    <Image Include="..\FinalProject_re\galaxy_2.bmp" />
+    <Image Include="..\FinalProject_re\granite.bmp" />
+    <Image Include="..\FinalProject_re\granite.jpg" />
+    <Image Include="..\FinalProject_re\hatch.bmp" />
+    <Image Include="..\FinalProject_re\him.bmp" />
+    <Image Include="..\FinalProject_re\insterstellar.bmp" />
+    <Image Include="..\FinalProject_re\jameswebb1.bmp" />
+    <Image Include="..\FinalProject_re\jupiter.bmp" />
+    <Image Include="..\FinalProject_re\jupitermap.bmp" />
+    <Image Include="..\FinalProject_re\KalachakraSera.bmp" />
+    <Image Include="..\FinalProject_re\logokachow.bmp" />
+    <Image Include="..\FinalProject_re\mars.bmp" />
+    <Image Include="..\FinalProject_re\merc.bmp" />
+    <Image Include="..\FinalProject_re\milks.bmp" />
+    <Image Include="..\FinalProject_re\muesuem.bmp" />
+    <Image Include="..\FinalProject_re\nasa1.bmp" />
+    <Image Include="..\FinalProject_re\neptune.bmp" />
+    <Image Include="..\FinalProject_re\oak.bmp" />
+    <Image Include="..\FinalProject_re\RoughWood.bmp" />
+    <Image Include="..\FinalProject_re\sapphire.bmp" />
+    <Image Include="..\FinalProject_re\saturn.bmp" />
+    <Image Include="..\FinalProject_re\space.bmp" />
+    <Image Include="..\FinalProject_re\tiles.bmp" />
+    <Image Include="..\FinalProject_re\titan.png" />
+    <Image Include="..\FinalProject_re\titan1.bmp" />
+    <Image Include="..\FinalProject_re\titan2.bmp" />
+    <Image Include="..\FinalProject_re\uranustext.bmp" />
+    <Image Include="..\FinalProject_re\venus.bmp" />
+    <Image Include="..\FinalProject_re\webbies.bmp" />
+    <Image Include="..\FinalProject_re\webbies1.bmp" />
+    <Image Include="..\FinalProject_re\webbies2.bmp" />
+    <Image Include="..\FinalProject_re\wod.bmp" />
+    <Image Include="..\FinalProject_re\woodtext.bmp" />
+    <Image Include="..\FinalProject_re\wootwoot.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\FinalProject_re\EduPhong.cpp" />
+    <ClCompile Include="..\FinalProject_re\GlGeomBase.cpp" />
+    <ClCompile Include="..\FinalProject_re\GlGeomCylinder.cpp" />
+    <ClCompile Include="..\FinalProject_re\GlGeomSphere.cpp" />
+    <ClCompile Include="..\FinalProject_re\GlGeomTorus.cpp" />
+    <ClCompile Include="..\FinalProject_re\GlShaderMgr.cpp" />
+    <ClCompile Include="..\FinalProject_re\LinearR3.cpp" />
+    <ClCompile Include="..\FinalProject_re\LinearR4.cpp" />
+    <ClCompile Include="..\FinalProject_re\RgbImage.cpp" />
+    <ClCompile Include="MyGeometries.cpp" />
+    <ClCompile Include="PhongData.cpp" />
+    <ClCompile Include="TextureProj.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\FinalProject_re\EduPhong.glsl" />
+    <None Include="..\FinalProject_re\MyShaders.glsl" />
+    <None Include="..\FinalProject_re\MyShadersDemo.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\FinalProject_re\EduPhong.h" />
+    <ClInclude Include="..\FinalProject_re\GlGeomBase.h" />
+    <ClInclude Include="..\FinalProject_re\GlGeomCylinder.h" />
+    <ClInclude Include="..\FinalProject_re\GlGeomSphere.h" />
+    <ClInclude Include="..\FinalProject_re\GlGeomTorus.h" />
+    <ClInclude Include="..\FinalProject_re\GlShaderMgr.h" />
+    <ClInclude Include="..\FinalProject_re\LinearR3.h" />
+    <ClInclude Include="..\FinalProject_re\LinearR4.h" />
+    <ClInclude Include="..\FinalProject_re\MathMisc.h" />
+    <ClInclude Include="..\FinalProject_re\PhongData.h" />
+    <ClInclude Include="..\FinalProject_re\RgbImage.h" />
+    <ClInclude Include="MyGeometries.h" />
+    <ClInclude Include="PhongData.h" />
+    <ClInclude Include="TextureProj.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7ddf8193-0234-4097-92fd-d7c814aaa791}</ProjectGuid>
+    <RootNamespace>FinalProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
